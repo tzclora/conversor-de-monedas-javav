@@ -1,8 +1,8 @@
-ppackage com.bubches.conversor;
+package com.bubches.conversor;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
-        ConversorMoneda conversor = new ConversorMoneda();
-        conversor.iniciar();
+        ConversorMoneda app = new ConversorMoneda();
+        app.ejecutar();
     }
 }
