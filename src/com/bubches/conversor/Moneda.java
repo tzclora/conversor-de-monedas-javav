@@ -1,20 +1,24 @@
 package com.bubches.conversor;
 
 public class Moneda {
-    private String codigo;
-    private String nombre;
+    private final String codigo;
+    private final String pais;
 
-    public Moneda(String codigo, String nombre) {
+    public Moneda(String codigo, String pais) {
         this.codigo = codigo;
-        this.nombre = nombre;
+        this.pais = pais;
     }
 
     public String getCodigo() {
         return codigo;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getPais() {
+        return pais;
+    }
+
+    @Override
+    public String toString() {
+        return codigo + " (" + pais + ")";
     }
 }
-    
