@@ -42,7 +42,7 @@ Consiste en un conversor de monedas que utiliza una API externa para obtener tas
 
 4. Seguir las instrucciones que aparecen en consola para realizar conversiones.
 
-   Estructura del programa
+🧩 Estructura del programa   
 ConversorMoneda.java: clase principal con el menú y flujo de interacción.
 
 Moneda.java: clase modelo que representa una moneda.
