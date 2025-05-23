@@ -44,7 +44,8 @@ Consiste en un conversor de monedas que utiliza una API externa para obtener tas
    
 ---
 
-🧩 Estructura del programa   
+🧩 Estructura del programa
+
 ConversorMoneda.java: clase principal con el menú y flujo de interacción.
 
 Moneda.java: clase modelo que representa una moneda.
@@ -54,6 +55,7 @@ ServicioCambio.java: clase encargada de hacer la solicitud HTTP a la API y proce
 ---
 
 🐞 Errores conocidos
+
 Si no hay conexión a internet, la aplicación no puede completar la conversión.
 
 Algunas monedas no están disponibles en la versión gratuita de la API.
@@ -63,6 +65,7 @@ Actualmente no se guarda el historial de conversiones (puede agregarse en versio
 ---
 
 📌 Consideraciones
+
 La API utilizada tiene un límite de uso gratuito diario.
 
 El programa está pensado para funcionar por consola.
@@ -71,12 +74,14 @@ Este conversor puede evolucionar a una interfaz gráfica o aplicación web en fa
 
 ---
 
-👨‍💻 Desarrollado por
+👨‍💻 Desarrollado por:
+
 BubChes (Juan Carlos Lora Rebollo)
 Participante del programa Oracle Next Education (ONE)
 
 ---
 
 📎 Licencia
+
 Este proyecto es de uso libre para fines educativos.
 
